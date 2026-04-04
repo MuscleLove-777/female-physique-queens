@@ -493,7 +493,7 @@ body {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 40px;
 }
 
@@ -571,6 +571,58 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* ============================================
+   MUSCLELOVE BRANDING
+   ============================================ */
+
+.hero-powered {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.musclelove-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.musclelove-link:hover {
+    color: var(--gold);
+}
+
+.musclelove-promo {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 107, 157, 0.08);
+    border: 1px solid rgba(255, 107, 157, 0.2);
+    border-radius: 10px;
+}
+
+.musclelove-promo p {
+    font-size: 0.85rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.musclelove-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.musclelove-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255, 107, 157, 0.3);
 }
 
 /* ============================================
