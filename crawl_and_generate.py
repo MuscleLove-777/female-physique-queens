@@ -276,7 +276,7 @@ def save_article_html(article: dict, index: int) -> str:
     </nav>
     <main class="container">
         <article class="article-detail" style="padding: 60px 0;">
-            <div class="blog-image" style="height: 250px; border-radius: 12px; {article.get('gradient', GRADIENTS[0])}; margin-bottom: 30px;"></div>
+            <div class="blog-image" style="height: 250px; border-radius: 12px; background: {article.get('gradient', GRADIENTS[0])}; margin-bottom: 30px;"></div>
             <span class="blog-date">{datetime.now().strftime('%Y.%m.%d')}</span>
             <h1 style="font-family: 'Oswald', sans-serif; font-size: 2rem; color: #fff; margin: 15px 0; line-height: 1.4;">{article['title']}</h1>
             <div class="card-stats" style="margin-bottom: 20px;">
