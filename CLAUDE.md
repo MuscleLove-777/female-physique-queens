@@ -7,7 +7,7 @@ Instagramで写真を公開しているBikini & Physique部門の選手を紹介
 ## 掲載選手（Instagram公開アカウント限定）
 ### 日本
 - 安井友梨 (@yuri.yasui.98) - IFBB Bikini Pro, 191K followers
-- ダンシーあずさ (@az.dancy) - JBBF Bikini 5連覇, ~100K followers
+- ダンシーあずさ (@az.official__) - JBBF Bikini 5連覇, ~100K followers
 - 黒川夢 (@yume_ifbbpro) - IFBB Bikini Pro, 66K followers
 - 野田ユリカ (@yurika_ifbbpro) - IFBB Bikini Olympian, 3x Olympia
 - MISA (@misamisa_ifbb_figure_pro) - IFBB Figure Pro, 72K followers
