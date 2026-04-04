@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEMALE PHYSIQUE QUEENS - 腹筋バキバキの女しか勝たん</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ヒーローセクション -->
+<header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">FEMALE PHYSIQUE<br><span>QUEENS</span></h1>
+        <p class="hero-subtitle">腹筋バキバキの女しか勝たん — Instagramで写真公開中の選手限定</p>
+        <div class="hero-stats">
+            <div class="stat"><span class="stat-number" id="athleteCount">12</span><span class="stat-label">Athletes</span></div>
+            <div class="stat"><span class="stat-number">2</span><span class="stat-label">Categories</span></div>
+            <div class="stat"><span class="stat-number">ALL</span><span class="stat-label">Public IG</span></div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+    </div>
+</header>
+
+<!-- フィルターナビ -->
+<nav class="filter-nav">
+    <div class="container">
+        <button class="filter-btn active" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="bikini">BIKINI</button>
+        <button class="filter-btn" data-filter="physique">PHYSIQUE</button>
+        <button class="filter-btn" data-filter="japan">JAPAN</button>
+        <button class="filter-btn" data-filter="korea">KOREA</button>
+        <button class="filter-btn" data-filter="international">INTERNATIONAL</button>
+    </div>
+</nav>
+
+<!-- メインコンテンツ -->
+<main class="container">
+
+    <!-- 紹介セクション -->
+    <section class="intro-section">
+        <h2 class="section-title">FEATURED ATHLETES</h2>
+        <p class="section-desc">全員Instagramで競技写真・トレーニング写真を公開中。<br>バキバキの腹筋とコンテストレベルの仕上がりを誇る女性フィジーカーたち。</p>
+        <div class="public-badge-info">
+            <span class="public-badge">📸 PUBLIC IG</span> = Instagramで写真を一般公開している選手のみ掲載
+        </div>
+    </section>
+
+    <!-- アスリートカードグリッド -->
+    <section class="athlete-grid" id="athleteGrid">
+
+        <!-- ===== 日本人選手 ===== -->
+
+        <!-- 1. 安井友梨 -->
+        <article class="athlete-card" data-category="bikini japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #ff6b9d, #c44569);">
+                    <span class="placeholder-icon">👑</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">安井友梨 / Yuri Yasui</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">191K followers</p>
+                <p class="card-desc">日本のビキニフィットネス界の女王。IFBB Bikini Pro。元銀行員からプロ選手に転身し、IFBBフィットモデルワールドカップ優勝。引き締まった腹筋と圧倒的なステージプレゼンスで日本のフィットネスシーンを牽引。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">World Cup Winner</span>
+                    <span class="tag">バキバキ腹筋</span>
+                </div>
+                <a href="https://www.instagram.com/yuri.yasui.98/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @yuri.yasui.98
+                </a>
+            </div>
+        </article>
+
+        <!-- 2. ダンシーあずさ -->
+        <article class="athlete-card" data-category="bikini japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #fd79a8, #e84393);">
+                    <span class="placeholder-icon">🔥</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">ダンシーあずさ / Azusa Dancy</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">~100K followers</p>
+                <p class="card-desc">JBBFビキニフィットネス163cm以下級5連覇の絶対女王。「腹筋バキバキ」の代名詞的存在。減量末期の仕上がりは日本女性選手トップクラスのカットを誇る。</p>
+                <div class="card-stats">
+                    <span class="tag">JBBF 5連覇</span>
+                    <span class="tag">腹筋の女王</span>
+                    <span class="tag">バキバキ腹筋</span>
+                </div>
+                <a href="https://www.instagram.com/az.dancy/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @az.dancy
+                </a>
+            </div>
+        </article>
+
+        <!-- 3. 黒川夢 -->
+        <article class="athlete-card" data-category="bikini japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);">
+                    <span class="placeholder-icon">✨</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">黒川夢 / Yume Kurokawa</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">66K followers</p>
+                <p class="card-desc">IFBB Bikini Pro。日本人として世界の舞台で戦うプロビキニ選手。コンテスト写真やトレーニング風景を積極的に発信中。美しいウエストラインと腹筋のカットが魅力。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">Active Poster</span>
+                </div>
+                <a href="https://www.instagram.com/yume_ifbbpro/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @yume_ifbbpro
+                </a>
+            </div>
+        </article>
+
+        <!-- 4. 野田ユリカ -->
+        <article class="athlete-card" data-category="bikini japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #ffeaa7, #fdcb6e);">
+                    <span class="placeholder-icon">🏆</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">野田ユリカ / Yurika Noda</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">18K followers</p>
+                <p class="card-desc">IFBB Bikini Olympian。プロ通算5勝、Olympia出場3回を誇る日本人トップビキニプロ。世界の頂点で戦い続ける実力派。コンテスト写真を多数公開中。</p>
+                <div class="card-stats">
+                    <span class="tag">3x Olympian</span>
+                    <span class="tag">5 Pro Wins</span>
+                    <span class="tag">IFBB Pro</span>
+                </div>
+                <a href="https://www.instagram.com/yurika_ifbbpro/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @yurika_ifbbpro
+                </a>
+            </div>
+        </article>
+
+        <!-- 5. MISA -->
+        <article class="athlete-card" data-category="physique japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #74b9ff, #0984e3);">
+                    <span class="placeholder-icon">⚡</span>
+                </div>
+                <div class="card-badge">PHYSIQUE</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">MISA</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">72K followers</p>
+                <p class="card-desc">IFBB Figure Pro。日本人女性フィジーク選手として世界で戦うパイオニア。バキバキに仕上がった筋肉のカットと、ステージでの存在感が圧巻。2025年も精力的に大会出場中。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Figure Pro</span>
+                    <span class="tag">バキバキ腹筋</span>
+                    <span class="tag">Pioneer</span>
+                </div>
+                <a href="https://www.instagram.com/misamisa_ifbb_figure_pro/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @misamisa_ifbb_figure_pro
+                </a>
+            </div>
+        </article>
+
+        <!-- 6. 渋谷美穂 -->
+        <article class="athlete-card" data-category="bikini japan">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #ff9ff3, #f368e0);">
+                    <span class="placeholder-icon">💎</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">渋谷美穂 / Miho Shibuya</h3>
+                <p class="card-country">🇯🇵 Japan</p>
+                <p class="card-followers">Active on IG</p>
+                <p class="card-desc">「腹筋女子日本一」の異名を持つフィットネス選手。韓国の大会ではスポーツモデル部門への転向を勧められるほどの圧倒的な腹筋のカット。美ボディ系大会で数々の実績。</p>
+                <div class="card-stats">
+                    <span class="tag">腹筋女子日本一</span>
+                    <span class="tag">バキバキ腹筋</span>
+                </div>
+                <a href="https://www.instagram.com/shibuya_miho/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @shibuya_miho
+                </a>
+            </div>
+        </article>
+
+        <!-- ===== 韓国選手 ===== -->
+
+        <!-- 7. Ahreum Song -->
+        <article class="athlete-card" data-category="bikini korea">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #fab1a0, #e17055);">
+                    <span class="placeholder-icon">🌟</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">ソン・アルム / Ahreum Song</h3>
+                <p class="card-country">🇰🇷 South Korea</p>
+                <p class="card-followers">285K followers</p>
+                <p class="card-desc">韓国が誇るIFBB Bikini Pro。IFBB Asia Grand Prix 2位、Taiwan Pro優勝でOlympia出場権を獲得。Netflix「Physical 100」出演でも話題に。シャープな腹筋ラインが美しい。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">Olympian</span>
+                    <span class="tag">Netflix Physical 100</span>
+                </div>
+                <a href="https://www.instagram.com/ahreum_song/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @ahreum_song
+                </a>
+            </div>
+        </article>
+
+        <!-- 8. Yuna Lee -->
+        <article class="athlete-card" data-category="bikini korea">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #55efc4, #00b894);">
+                    <span class="placeholder-icon">💪</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">イ・ユナ / Yuna Lee</h3>
+                <p class="card-country">🇰🇷 South Korea</p>
+                <p class="card-followers">Active on IG</p>
+                <p class="card-desc">IFBB Bikini Pro。双子の姉妹でどちらもIFBBプロという驚異的なフィットネスファミリー。韓国のフィットネスシーンを牽引する実力派。引き締まったボディラインが特徴。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">Twin Pros</span>
+                </div>
+                <a href="https://www.instagram.com/lynzzzzang/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @lynzzzzang
+                </a>
+            </div>
+        </article>
+
+        <!-- ===== 海外選手 ===== -->
+
+        <!-- 9. Maureen Blanquisco -->
+        <article class="athlete-card" data-category="bikini international">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #feca57, #ff9f43);">
+                    <span class="placeholder-icon">🔱</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">Maureen Blanquisco</h3>
+                <p class="card-country">🇵🇭 Philippines</p>
+                <p class="card-followers">400K+ followers</p>
+                <p class="card-desc">2022年 & 2025年 Ms. Bikini Olympia Champion。フィリピン出身、アジアが誇る世界最高峰のビキニ選手。2025年Olympiaでは過去最高の仕上がりで王座奪還。腹筋のセパレーションが芸術的。</p>
+                <div class="card-stats">
+                    <span class="tag">2x Olympia Champion</span>
+                    <span class="tag">Asian Queen</span>
+                    <span class="tag">バキバキ腹筋</span>
+                </div>
+                <a href="https://www.instagram.com/maureenblanquisco/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @maureenblanquisco
+                </a>
+            </div>
+        </article>
+
+        <!-- 10. Lauralie Chapados -->
+        <article class="athlete-card" data-category="bikini international">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #c8d6e5, #576574);">
+                    <span class="placeholder-icon">🏅</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">Lauralie Chapados</h3>
+                <p class="card-country">🇨🇦 Canada</p>
+                <p class="card-followers">700K+ followers</p>
+                <p class="card-desc">2024年 Ms. Bikini Olympia Champion。カナダ出身のIFBBビキニプロ。完璧なプロポーションと極限まで引き締まった腹筋で世界を制覇。コンテスト写真を豊富に投稿。</p>
+                <div class="card-stats">
+                    <span class="tag">Olympia Champion</span>
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">バキバキ腹筋</span>
+                </div>
+                <a href="https://www.instagram.com/lauraliechap/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @lauraliechap
+                </a>
+            </div>
+        </article>
+
+        <!-- 11. Karen Yuen Campion -->
+        <article class="athlete-card" data-category="bikini international">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #48dbfb, #0abde3);">
+                    <span class="placeholder-icon">🦋</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">Karen Yuen Campion</h3>
+                <p class="card-country">🇭🇰 Hong Kong</p>
+                <p class="card-followers">Active on IG</p>
+                <p class="card-desc">IFBB Bikini Pro。香港初にして唯一のIFBB Olympian。アジアのビキニフィットネスを世界に発信するパイオニア的存在。美しい腹筋ラインとアジアンビューティーの融合。</p>
+                <div class="card-stats">
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">HK First Olympian</span>
+                </div>
+                <a href="https://www.instagram.com/karenfit.ifbbpro/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @karenfit.ifbbpro
+                </a>
+            </div>
+        </article>
+
+        <!-- 12. Janet Layug -->
+        <article class="athlete-card" data-category="bikini international">
+            <div class="card-image">
+                <div class="card-placeholder" style="background: linear-gradient(135deg, #ff6b9d, #c44569);">
+                    <span class="placeholder-icon">👑</span>
+                </div>
+                <div class="card-badge">BIKINI</div>
+                <span class="card-public">📸 PUBLIC</span>
+            </div>
+            <div class="card-body">
+                <h3 class="card-name">Janet Layug</h3>
+                <p class="card-country">🇺🇸 USA (Filipino descent)</p>
+                <p class="card-followers">500K+ followers</p>
+                <p class="card-desc">元 Ms. Bikini Olympia Champion。フィリピン系アメリカ人。圧倒的なステージプレゼンスとコンディショニングで知られるレジェンド。腹筋のカットと全体のバランスが芸術的。</p>
+                <div class="card-stats">
+                    <span class="tag">Olympia Champion</span>
+                    <span class="tag">IFBB Pro</span>
+                    <span class="tag">Legend</span>
+                </div>
+                <a href="https://www.instagram.com/janetlayug/" target="_blank" rel="noopener" class="instagram-link">
+                    <svg class="ig-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @janetlayug
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- 記事セクション -->
+    <section class="blog-section">
+        <h2 class="section-title">LATEST ARTICLES</h2>
+        <div class="blog-grid">
+            <article class="blog-card" onclick="window.location='articles/20260404_00.html'" style="cursor:pointer;">
+                <div class="blog-image" style="background: linear-gradient(135deg, #ff6b9d, #c44569);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.04.04</span>
+                    <h3>Gallerys - NPC News Online</h3>
+                    <p>The National Physique Committeeis the premier amateur physique organization in t...</p>
+                </div>
+            </article>
+            <article class="blog-card" onclick="window.location='articles/20260404_01.html'" style="cursor:pointer;">
+                <div class="blog-image" style="background: linear-gradient(135deg, #55efc4, #00b894);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.04.04</span>
+                    <h3>YASUI Yuri: From Starting Competitive Bikini Fitness at 30 t</h3>
+                    <p>Its most popular competitor is Yuri Yasui, who reigns as its undisputed queen, h...</p>
+                </div>
+            </article>
+            <article class="blog-card" onclick="window.location='articles/20260404_02.html'" style="cursor:pointer;">
+                <div class="blog-image" style="background: linear-gradient(135deg, #fd79a8, #e84393);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.04.04</span>
+                    <h3>Yurika Noda | IFBB BIKINI OLYMPIAN (@yurika_ifbbpro) - Insta</h3>
+                    <p>18K Followers, 1,519 Following, 627 Posts - Yurika Noda | IFBB BIKINI OLYMPIAN (...</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #ff6b9d, #c44569);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.04.01</span>
+                    <h3>2025 Olympia ビキニ部門 結果まとめ — Maureen Blanquisco 王座奪還</h3>
+                    <p>2025年のOlympiaビキニ部門でMaureen Blanquiscoが2度目の優勝。前年チャンピオンLauralie Chapadosはまさかのトップ5外。激戦の全結果を振り返る。</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.03.25</span>
+                    <h3>日本人IFBBプロが50人超え — 安井友梨・黒川夢・野田ユリカの軌跡</h3>
+                    <p>日本のフィットネスシーンが世界で存在感を増している。IFBBプロカード保持者が50名を超えた今、日本の女性ビキニプロたちの活躍を紹介。</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #55efc4, #00b894);"></div>
+                <div class="blog-body">
+                    <span class="blog-date">2026.03.18</span>
+                    <h3>腹筋バキバキの女性フィジーカーが映えるInstagramアカウント12選</h3>
+                    <p>コンテスト写真やトレーニング風景を積極的に公開している女性選手のInstagramを厳選。フォロー必須のアカウントを紹介。</p>
+                </div>
+            </article></div>
+    </section>
+
+</main>
+
+<!-- フッター -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>FEMALE PHYSIQUE QUEENS</h3>
+                <p>腹筋バキバキの女しか勝たん</p>
+                <p class="footer-note">掲載選手は全員Instagramで写真を一般公開しているアカウントのみです。</p>
+            </div>
+            <div class="footer-links">
+                <h4>CATEGORIES</h4>
+                <a href="#">Bikini</a>
+                <a href="#">Physique</a>
+            </div>
+            <div class="footer-links">
+                <h4>REGIONS</h4>
+                <a href="#">Japan</a>
+                <a href="#">Korea</a>
+                <a href="#">International</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Female Physique Queens. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

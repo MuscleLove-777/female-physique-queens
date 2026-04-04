@@ -1,0 +1,113 @@
+{
+    "blog_title": "FEMALE PHYSIQUE QUEENS",
+    "blog_dir": "c:/Users/atsus/000_ClaudeCode/004_MuscleLove/female-physique-blog",
+    "articles_dir": "articles",
+    "data_dir": "data",
+    "max_articles_per_run": 3,
+    "athletes": [
+        {
+            "name_ja": "安井友梨",
+            "name_en": "Yuri Yasui",
+            "instagram": "yuri.yasui.98",
+            "category": "bikini",
+            "country": "JP",
+            "search_keywords": ["安井友梨", "Yuri Yasui IFBB", "安井友梨 ビキニ"]
+        },
+        {
+            "name_ja": "ダンシーあずさ",
+            "name_en": "Azusa Dancy",
+            "instagram": "az.dancy",
+            "category": "bikini",
+            "country": "JP",
+            "search_keywords": ["ダンシーあずさ", "Azusa Dancy bikini", "ダンシーあずさ ビキニ"]
+        },
+        {
+            "name_ja": "黒川夢",
+            "name_en": "Yume Kurokawa",
+            "instagram": "yume_ifbbpro",
+            "category": "bikini",
+            "country": "JP",
+            "search_keywords": ["黒川夢", "Yume Kurokawa IFBB", "黒川夢 ビキニ"]
+        },
+        {
+            "name_ja": "野田ユリカ",
+            "name_en": "Yurika Noda",
+            "instagram": "yurika_ifbbpro",
+            "category": "bikini",
+            "country": "JP",
+            "search_keywords": ["野田ユリカ", "Yurika Noda IFBB Olympia"]
+        },
+        {
+            "name_ja": "MISA",
+            "name_en": "MISA",
+            "instagram": "misamisa_ifbb_figure_pro",
+            "category": "physique",
+            "country": "JP",
+            "search_keywords": ["MISA IFBB figure pro", "MISA フィギュアプロ"]
+        },
+        {
+            "name_ja": "渋谷美穂",
+            "name_en": "Miho Shibuya",
+            "instagram": "shibuya_miho",
+            "category": "bikini",
+            "country": "JP",
+            "search_keywords": ["渋谷美穂 腹筋", "Miho Shibuya fitness"]
+        },
+        {
+            "name_ja": "ソン・アルム",
+            "name_en": "Ahreum Song",
+            "instagram": "ahreum_song",
+            "category": "bikini",
+            "country": "KR",
+            "search_keywords": ["Ahreum Song IFBB", "송아름 비키니", "Ahreum Song bikini"]
+        },
+        {
+            "name_ja": "イ・ユナ",
+            "name_en": "Yuna Lee",
+            "instagram": "lynzzzzang",
+            "category": "bikini",
+            "country": "KR",
+            "search_keywords": ["Yuna Lee IFBB bikini", "이유나 비키니"]
+        },
+        {
+            "name_ja": "Maureen Blanquisco",
+            "name_en": "Maureen Blanquisco",
+            "instagram": "maureenblanquisco",
+            "category": "bikini",
+            "country": "PH",
+            "search_keywords": ["Maureen Blanquisco", "Blanquisco Olympia bikini"]
+        },
+        {
+            "name_ja": "Lauralie Chapados",
+            "name_en": "Lauralie Chapados",
+            "instagram": "lauraliechap",
+            "category": "bikini",
+            "country": "CA",
+            "search_keywords": ["Lauralie Chapados", "Chapados bikini Olympia"]
+        },
+        {
+            "name_ja": "Karen Yuen Campion",
+            "name_en": "Karen Yuen Campion",
+            "instagram": "karenfit.ifbbpro",
+            "category": "bikini",
+            "country": "HK",
+            "search_keywords": ["Karen Yuen Campion IFBB", "Karen Yuen bikini pro"]
+        },
+        {
+            "name_ja": "Janet Layug",
+            "name_en": "Janet Layug",
+            "instagram": "janetlayug",
+            "category": "bikini",
+            "country": "US",
+            "search_keywords": ["Janet Layug", "Layug bikini Olympia"]
+        }
+    ],
+    "general_search_keywords": [
+        "女性 フィジーク ビキニ 大会 結果 2026",
+        "female bikini physique competition results 2026",
+        "IFBB bikini pro results 2026",
+        "FWJ ビキニ 大会 結果",
+        "women's physique IFBB 2026",
+        "ビキニフィットネス トレーニング 食事"
+    ]
+}

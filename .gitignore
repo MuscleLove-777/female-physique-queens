@@ -1,0 +1,4 @@
+data/crawl_history.json
+data/crawl_log.txt
+__pycache__/
+*.pyc
