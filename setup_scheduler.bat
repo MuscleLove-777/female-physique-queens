@@ -4,7 +4,7 @@ REM タスクスケジューラに毎日AM9:00実行を登録するバッチ
 REM 管理者権限で実行してください（右クリック→管理者として実行）
 REM ============================================
 
-schtasks /create /tn "FemalePhysiqueQueens_DailyCrawl" /tr "c:\Users\atsus\000_ClaudeCode\004_MuscleLove\female-physique-blog\run_daily.bat" /sc daily /st 09:00 /f
+schtasks /create /tn "FemalePhysiqueQueens_DailyCrawl" /tr "%USERPROFILE%\000_ClaudeCode\004_MuscleLove\female-physique-blog\run_daily.bat" /sc daily /st 09:00 /f
 
 if %errorlevel% equ 0 (
     echo.

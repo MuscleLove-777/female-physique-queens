@@ -41,7 +41,7 @@ CONFIG_PATH = SCRIPT_DIR / "config.json"
 with open(CONFIG_PATH, "r", encoding="utf-8") as f:
     CONFIG = json.load(f)
 
-BLOG_DIR = Path(CONFIG["blog_dir"])
+BLOG_DIR = Path(CONFIG["blog_dir"]).expanduser()
 ARTICLES_DIR = BLOG_DIR / CONFIG["articles_dir"]
 DATA_DIR = BLOG_DIR / CONFIG["data_dir"]
 HISTORY_FILE = DATA_DIR / "crawl_history.json"

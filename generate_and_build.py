@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, r"C:\Users\atsus\000_ClaudeCode\007_自動投稿ブログ")
+sys.path.insert(0, str(Path.home() / "000_ClaudeCode" / "007_自動投稿ブログ"))
 import fitness_auto_post_lib as lib  # noqa: E402
 
 CLAUDE_MD = (HERE / "CLAUDE.md").read_text(encoding="utf-8") if (HERE / "CLAUDE.md").exists() else ""

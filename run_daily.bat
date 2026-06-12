@@ -18,7 +18,7 @@ REM --- Google Custom Search（オプション: あるとより良い検索結�
 REM set GOOGLE_API_KEY=your-google-api-key
 REM set GOOGLE_CX=your-custom-search-engine-id
 
-cd /d "c:\Users\atsus\000_ClaudeCode\004_MuscleLove\female-physique-blog"
+cd /d "%USERPROFILE%\000_ClaudeCode\004_MuscleLove\female-physique-blog"
 
 echo [%date% %time%] === FEMALE PHYSIQUE QUEENS 自動巡回開始 === >> data\crawl_log.txt
 

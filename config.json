@@ -1,6 +1,6 @@
 {
     "blog_title": "FEMALE PHYSIQUE QUEENS",
-    "blog_dir": "c:/Users/atsus/000_ClaudeCode/004_MuscleLove/female-physique-blog",
+    "blog_dir": "~/000_ClaudeCode/004_MuscleLove/female-physique-blog",
     "articles_dir": "articles",
     "data_dir": "data",
     "max_articles_per_run": 3,
