@@ -4,24 +4,8 @@
 「腹筋バキバキの女しか勝たん」をモットーにした女性フィジーカー紹介ブログ。
 Instagramで写真を公開しているBikini & Physique部門の選手を紹介する。
 
-## 掲載選手（Instagram公開アカウント限定）
-### 日本
-- 安井友梨 (@yuri.yasui.98) - IFBB Bikini Pro, 191K followers
-- ダンシーあずさ (@az.official__) - JBBF Bikini 5連覇, ~100K followers
-- 黒川夢 (@yume_ifbbpro) - IFBB Bikini Pro, 66K followers
-- 野田ユリカ (@yurika_ifbbpro) - IFBB Bikini Olympian, 3x Olympia
-- MISA (@misamisa_ifbb_figure_pro) - IFBB Figure Pro, 72K followers
-- 渋谷美穂 (@shibuya_miho) - 腹筋女子日本一
-
-### 韓国
-- ソン・アルム (@ahreum_song) - IFBB Bikini Pro, 285K followers
-- イ・ユナ (@lynzzzzang) - IFBB Bikini Pro
-
-### 海外
-- Maureen Blanquisco (@maureenblanquisco) - 🇵🇭 2x Bikini Olympia Champion
-- Lauralie Chapados (@lauraliechap) - 🇨🇦 Bikini Olympia Champion
-- Karen Yuen Campion (@karenfit.ifbbpro) - 🇭🇰 First HK Olympian
-- Janet Layug (@janetlayug) - 🇺🇸 Bikini Olympia Champion
+## 掲載対象（ロスター）
+記事対象の選手リスト（Instagram公開アカウント限定）は必ず `references/roster.md` を読んで参照すること。リストの追加・更新もそのファイルに対して行う。
 
 ## 記事生成ルール
 - 日本語で書く
@@ -31,7 +15,7 @@ Instagramで写真を公開しているBikini & Physique部門の選手を紹介
 - 出典URLを必ず含める
 - カテゴリは bikini または physique
 - トピック例: 大会結果、選手紹介、トレーニング、比較、ランキング
-- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める
+- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める。広告カードにはX / Patreon / ゲームポータルの3導線を必ず入れる
 
 ## ファイル構成
 - `index.html` — メインページ（記事カードは `<div class="blog-grid">` 内）
@@ -55,6 +39,7 @@ index.html に戻るリンクを含める。
     <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
       <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#1d9bf0;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">X @MuscleGirlLove7</a>
       <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#ff424d;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">Patreon 限定コンテンツ</a>
+      <a href="https://musclelove-games.vercel.app/?utm_source=blog&amp;utm_medium=promo_card&amp;utm_campaign=female-physique-blog" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#22c55e;color:#0b1220;border-radius:6px;font-weight:800;text-decoration:none;">🎮 無料ゲーム95本</a>
     </div>
   </div>
 </section>
